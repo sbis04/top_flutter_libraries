@@ -6,11 +6,9 @@ Library used: [Flutter BLoC](https://pub.dev/packages/flutter_bloc)
 
 ## App screenshot
 
-<p width="300">
-  <img src="https://github.com/sbis04/top_flutter_libraries/raw/master/codemagic_bloc/screenshots/flutter_bloc_init.png" alt="Codemagic BLoC Init"/>
-</p>
-<p width="300">
-  <img src="https://github.com/sbis04/top_flutter_libraries/raw/master/codemagic_bloc/screenshots/flutter_bloc_loaded.png" alt="Codemagic BLoC Loaded"/>
+<p>
+  <img width="250" src="https://github.com/sbis04/top_flutter_libraries/raw/master/codemagic_bloc/screenshots/flutter_bloc_init.png" alt="Codemagic BLoC Init"/>
+  <img width="250" src="https://github.com/sbis04/top_flutter_libraries/raw/master/codemagic_bloc/screenshots/flutter_bloc_loaded.png" alt="Codemagic BLoC Loaded"/>
 </p>
 
 ## License
