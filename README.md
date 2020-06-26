@@ -18,46 +18,46 @@ This is a showcase of different **Flutter Libraries** with the help of a sample 
 
 ## Sample projects
 
-### Codemagic BLoC
+### [Codemagic BLoC](https://github.com/sbis04/top_flutter_libraries/tree/master/codemagic_bloc)
 
 An app for fetching applications using **Codemagic API** is implemented using the **BLoC** pattern.
 
-### Dio Demo
+### [Dio Demo](https://github.com/sbis04/top_flutter_libraries/tree/master/dio_demo)
 
 A small app for interacting with an API and use **POST** & **GET** Data.
 
-### Animated Text Demo
+### [Animated Text Demo](https://github.com/sbis04/top_flutter_libraries/tree/master/animated_text_demo)
 
 An app demonstrating the **Liquid Fill Text Animation**.
 
-### Velocity Demo
+### [Velocity Demo](https://github.com/sbis04/top_flutter_libraries/tree/master/velocity_demo)
 
 Showcasing the power of UI building tool called **VelocityX** by creating a minimalist UI.
 
-### Geolocation Demo
+### [Geolocation Demo](https://github.com/sbis04/top_flutter_libraries/tree/master/geolocation_demo)
 
 App for retrieving the **current location** of the user and its probable address from the coordinates.
 
-### Network Image Demo
+### [Network Image Demo](https://github.com/sbis04/top_flutter_libraries/tree/master/net_img_demo)
 
 Sample app for caching images retrieved from a **network URL**.
 
-### Hive Demo
+### [Hive Demo](https://github.com/sbis04/top_flutter_libraries/tree/master/hive_demo)
 
 An app for generating random Colors implemented using the **Hive database**.
 
-### Liquid Swipe Demo
+### [Liquid Swipe Demo](https://github.com/sbis04/top_flutter_libraries/tree/master/liquid_swipe_demo)
 
 App demonstrating a liquid-like swipe animation between different pages.
 
-### Easy Localization
+### [Easy Localization](https://github.com/sbis04/top_flutter_libraries/tree/master/localization_demo)
 
 Adding localization capabilities to your app.
 
-### Json Serializable Demo
+### [Json Serializable Demo](https://github.com/sbis04/top_flutter_libraries/tree/master/json_serializable_demo)
 
 Automatically generate Dart code for accessing JSON.
 
-### Mockito Demo
+### [Mockito Demo](https://github.com/sbis04/top_flutter_libraries/tree/master/mockito_demo)
 
 Testing an API response from a live web service using Mockito library.
