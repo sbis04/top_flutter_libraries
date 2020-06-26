@@ -4,7 +4,7 @@ An app demonstrating the **Liquid Fill Text Animation**.
 
 Library used: [Animated Text Kit](https://pub.dev/packages/animated_text_kit)
 
-## App screenshot
+<h3 align="center">App screenshot</h3>
 
 <p align="center">
   <img width="300" src="https://github.com/sbis04/top_flutter_libraries/raw/master/animated_text_demo/screenshot/animated_text.png" alt="Animated Text"/>
