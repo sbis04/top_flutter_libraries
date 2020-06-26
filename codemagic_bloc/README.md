@@ -8,7 +8,6 @@ Library used: [Flutter BLoC](https://pub.dev/packages/flutter_bloc)
 
 <p align="center">
   <img width="300" src="https://github.com/sbis04/top_flutter_libraries/raw/master/codemagic_bloc/screenshots/flutter_bloc_init.png" alt="Codemagic BLoC Init"/>
-  <h1 class="logoHeader">---></h1>
   <img width="300" src="https://github.com/sbis04/top_flutter_libraries/raw/master/codemagic_bloc/screenshots/flutter_bloc_loaded.png" alt="Codemagic BLoC Loaded"/>
 </p>
 
