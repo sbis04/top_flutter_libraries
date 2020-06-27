@@ -48,19 +48,19 @@ An app for generating random Colors implemented using the **Hive database**.
 
 ### [Liquid Swipe Demo](https://github.com/sbis04/top_flutter_libraries/tree/master/liquid_swipe_demo)
 
-App demonstrating a liquid-like swipe animation between different pages.
+App demonstrating a **liquid-like swipe** animation between different pages.
 
 ### [Easy Localization](https://github.com/sbis04/top_flutter_libraries/tree/master/localization_demo)
 
-Adding localization capabilities to your app.
+Adding **localization** capabilities to your app.
 
 ### [Json Serializable Demo](https://github.com/sbis04/top_flutter_libraries/tree/master/json_serializable_demo)
 
-Automatically generate Dart code for accessing JSON.
+Automatically **generate Dart code** for accessing JSON.
 
 ### [Mockito Demo](https://github.com/sbis04/top_flutter_libraries/tree/master/mockito_demo)
 
-Testing an API response from a live web service using Mockito library.
+Testing an **API response** from a live web service using Mockito library.
 
 ## License
 
