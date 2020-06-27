@@ -50,7 +50,7 @@ An app for generating random Colors implemented using the **Hive database**.
 
 App demonstrating a **liquid-like swipe** animation between different pages.
 
-### [Easy Localization](https://github.com/sbis04/top_flutter_libraries/tree/master/localization_demo)
+### [Localization Demo](https://github.com/sbis04/top_flutter_libraries/tree/master/localization_demo)
 
 Adding **localization** capabilities to your app.
 
