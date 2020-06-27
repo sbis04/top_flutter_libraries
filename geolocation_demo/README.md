@@ -5,7 +5,7 @@ App for retrieving the **current location** of the user and its probable address
 Library used: [Geolocator](https://pub.dev/packages/geolocator)
 
 <p align="center">
-  <img width="300" src="https://github.com/sbis04/top_flutter_libraries/raw/master/geolocation_demo/screenshot/geolocator.png" alt="Geolocator"/>
+  <img width="400" src="https://github.com/sbis04/top_flutter_libraries/raw/master/geolocation_demo/screenshot/geolocator.png" alt="Geolocator"/>
 </p>
 
 ## License
