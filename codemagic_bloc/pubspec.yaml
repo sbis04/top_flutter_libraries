@@ -15,7 +15,7 @@ dependencies:
   cupertino_icons: ^0.1.3
 
   # Highlighted package
-  flutter_bloc: ^4.0.0
+  flutter_bloc: ^5.0.1
 
   # For using HTTP
   dio: ^3.0.9

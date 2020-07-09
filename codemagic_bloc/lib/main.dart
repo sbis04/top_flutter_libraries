@@ -8,7 +8,7 @@ import 'package:codemagic_bloc/repositories/repositories.dart';
 
 import 'application_page.dart';
 
-class ApplicationBlocDelegate extends BlocDelegate {
+class ApplicationBlocDelegate extends BlocObserver {
   @override
   void onTransition(Bloc bloc, Transition transition) {
     super.onTransition(bloc, transition);
@@ -17,8 +17,6 @@ class ApplicationBlocDelegate extends BlocDelegate {
 }
 
 void main() {
-  BlocSupervisor.delegate = ApplicationBlocDelegate();
-
   CodemagicApiClient client = CodemagicApiClient();
 
   ApplicationRepository repository =

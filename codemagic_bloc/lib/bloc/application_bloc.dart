@@ -7,11 +7,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ApplicationBloc extends Bloc<ApplicationEvent, ApplicationState> {
   final ApplicationRepository applicationRepository;
-  ApplicationBloc({@required this.applicationRepository})
-      : assert(applicationRepository != null);
 
-  @override
-  ApplicationState get initialState => ApplicationEmpty();
+  ApplicationBloc({@required this.applicationRepository})
+      : assert(applicationRepository != null),
+        super(ApplicationEmpty());
 
   @override
   Stream<ApplicationState> mapEventToState(ApplicationEvent event) async* {
