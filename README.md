@@ -1,6 +1,6 @@
-# Top Flutter Libraries
-
-This is a showcase of different **Flutter Libraries** with the help of a sample project for each. Some of these are less known gems but also some that are already quite popular and have gained the [Flutter Favorite](https://flutter.dev/docs/development/packages-and-plugins/favorites) label.
+<p align="center">
+  <a href="https://codemagic.io/flutter-libraries-ebook"><img src="https://github.com/sbis04/top_flutter_libraries/raw/master/assets/top_libraries_cover.png" alt="Top Flutter Libraries" /></a>
+</p>
 
 ## Highlighted Libraries
 
