@@ -51,7 +51,7 @@ class HomePage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Expanded(
-                child: HiveView(), // TODO: fill,
+                child: HiveView(),
               ),
               'Codemagic'
                   .text

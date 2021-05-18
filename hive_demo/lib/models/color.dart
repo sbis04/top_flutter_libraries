@@ -10,5 +10,5 @@ class CustomColor {
   @HiveField(1)
   final String colorHex;
 
-  CustomColor(this.colorName, this.colorHex);
+  CustomColor({required this.colorName, required this.colorHex});
 }
