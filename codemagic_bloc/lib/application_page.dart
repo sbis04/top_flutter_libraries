@@ -9,7 +9,7 @@ import 'repositories/application_repository.dart';
 class ApplicationPage extends StatelessWidget {
   final ApplicationRepository repository;
 
-  ApplicationPage({@required this.repository}) : assert(repository != null);
+  ApplicationPage({required this.repository});
 
   @override
   Widget build(BuildContext context) {

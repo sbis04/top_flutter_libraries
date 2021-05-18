@@ -28,7 +28,7 @@ void main() {
 class MyApp extends StatelessWidget {
   final ApplicationRepository repository;
 
-  MyApp({@required this.repository}) : assert(repository != null);
+  MyApp({required this.repository});
 
   @override
   Widget build(BuildContext context) {
@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
 class HomePage extends StatelessWidget {
   final ApplicationRepository repository;
 
-  HomePage({@required this.repository}) : assert(repository != null);
+  HomePage({required this.repository});
   @override
   Widget build(BuildContext context) {
     return Scaffold(

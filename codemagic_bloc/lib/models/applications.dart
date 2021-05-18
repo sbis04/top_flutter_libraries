@@ -1,10 +1,10 @@
 import 'package:equatable/equatable.dart';
 
 class Application extends Equatable {
-  final String id;
-  final String appName;
-  final String iconUrl;
-  final String lastBuildId;
+  final String? id;
+  final String? appName;
+  final String? iconUrl;
+  final String? lastBuildId;
 
   Application({
     this.id,
@@ -14,7 +14,7 @@ class Application extends Equatable {
   });
 
   @override
-  List<Object> get props => [id, appName, iconUrl, lastBuildId];
+  List<Object?> get props => [id, appName, iconUrl, lastBuildId];
 
   factory Application.fromJson(Map<String, dynamic> json) => Application(
         id: json["_id"],

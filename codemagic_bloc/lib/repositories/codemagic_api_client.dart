@@ -13,9 +13,9 @@ class CodemagicApiClient {
         "x-auth-token": Secrets.apiToken,
       });
 
-  Dio _dio;
+  late Dio _dio;
 
-  Future<Application> fetchApp() async {
+  Future<Application?> fetchApp() async {
     _dio = new Dio(options);
 
     try {
