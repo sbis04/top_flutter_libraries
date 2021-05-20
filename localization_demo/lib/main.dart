@@ -1,10 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:localization_demo/home_page.dart';
 
-import 'localization_view.dart';
-
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await EasyLocalization.ensureInitialized();
   runApp(
     EasyLocalization(
       supportedLocales: [Locale('en'), Locale('es'), Locale('hi')],
@@ -28,38 +28,6 @@ class MyApp extends StatelessWidget {
       locale: context.locale,
       debugShowCheckedModeBanner: false,
       home: HomePage(),
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Easy Localization'),
-      ),
-      body: SafeArea(
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Expanded(
-                child: LocalizationView(),
-              ),
-              'Codemagic'
-                  .text
-                  .uppercase
-                  .red600
-                  .bold
-                  .letterSpacing(8)
-                  .size(40)
-                  .make()
-                  .p16(),
-            ],
-          ),
-        ),
-      ),
     );
   }
 }

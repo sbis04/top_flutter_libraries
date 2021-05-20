@@ -15,9 +15,9 @@ class LiquidSwipeView extends StatelessWidget {
     return LiquidSwipe(
       pages: pages,
       fullTransitionValue: 200,
-      enableSlideIcon: true,
+      slideIconWidget: Icon(Icons.arrow_back_ios),
       enableLoop: true,
-      positionSlideIcon: 0.5,
+      positionSlideIcon: 0.8,
       waveType: WaveType.liquidReveal,
     );
   }

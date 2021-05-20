@@ -18,8 +18,8 @@ class LiquidTextView extends StatelessWidget {
           SizedBox(height: 200),
           TextLiquidFill(
             text: 'CODE',
-            waveColor: Colors.blueAccent[700],
-            boxBackgroundColor: Colors.orange[600],
+            waveColor: Colors.blueAccent.shade700,
+            boxBackgroundColor: Colors.orange.shade600,
             textStyle: style,
             waveDuration: Duration(seconds: 4),
             boxHeight: 120,
@@ -27,8 +27,8 @@ class LiquidTextView extends StatelessWidget {
           ),
           TextLiquidFill(
             text: 'MAGIC',
-            waveColor: Colors.blueAccent[700],
-            boxBackgroundColor: Colors.orange[600],
+            waveColor: Colors.blueAccent.shade700,
+            boxBackgroundColor: Colors.orange.shade600,
             textStyle: style,
             waveDuration: Duration(seconds: 2),
             boxHeight: 120,

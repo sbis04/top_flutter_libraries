@@ -16,8 +16,8 @@ class ColorPage extends StatelessWidget {
     MyColor _myColor = getColorNameFromColor(_color);
 
     final newColor = CustomColor(
-      _myColor.getName,
-      '#${_color.value.toRadixString(16).substring(2)}',
+      colorName: _myColor.getName,
+      colorHex: '#${_color.value.toRadixString(16).substring(2)}',
     );
     return newColor;
   }
@@ -69,17 +69,13 @@ class ColorPage extends StatelessWidget {
               }),
         ),
         SizedBox(height: 20.0),
-        RaisedButton(
+        ElevatedButton(
           onPressed: () {
             CustomColor newColor = _generateColor();
 
             _colorsBox.add(newColor);
           },
-          color: Colors.blue,
           child: text,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(30.0),
-          ),
         ),
       ],
     );

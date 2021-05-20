@@ -6,19 +6,19 @@ part 'application.g.dart';
 // JSON serialization logic to be generated.
 @JsonSerializable()
 class Application {
-  // To specify thst JSON must contain the key,
+  // To specify that JSON must contain the key,
   // if the key doesn't exist, an exception is thrown.
   // Also as the key name is different than the
   // variable name, so it is specified
   @JsonKey(required: true, name: '_id')
   final String id;
   final String appName;
-  final String iconUrl;
-  final String lastBuildId;
+  final String? iconUrl;
+  final String? lastBuildId;
 
   Application({
-    this.id,
-    this.appName,
+    required this.id,
+    required this.appName,
     this.iconUrl,
     this.lastBuildId,
   });

@@ -1,12 +1,12 @@
 name: animated_text_demo
-description: A new Flutter project.
+description: Demo project for Animated Text Kit package
 
 publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
@@ -15,7 +15,7 @@ dependencies:
   cupertino_icons: ^0.1.3
 
   # Highlighted package
-  animated_text_kit: ^2.0.1
+  animated_text_kit: ^4.2.1
 
 dev_dependencies:
   flutter_test:

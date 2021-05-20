@@ -9,13 +9,14 @@ class BuildView extends StatefulWidget {
 }
 
 class _BuildViewState extends State<BuildView> {
-  Dio _dio;
+  late Dio _dio;
   bool _isBuilding = false;
 
   TextStyle _buttonTextStyle = TextStyle(fontSize: 20, color: Colors.white);
   TextStyle _textStyle = TextStyle(fontSize: 20, color: Colors.black);
 
-  void _postData() async {
+  @override
+  void initState() {
     BaseOptions options = new BaseOptions(
         baseUrl: 'https://api.codemagic.io',
         connectTimeout: 5000,
@@ -27,6 +28,10 @@ class _BuildViewState extends State<BuildView> {
 
     _dio = new Dio(options);
 
+    super.initState();
+  }
+
+  void _postData() async {
     try {
       Response response = await _dio.post(
         "/builds",
@@ -59,12 +64,8 @@ class _BuildViewState extends State<BuildView> {
                   child: CircularProgressIndicator(),
                 )
               : Container(),
-          RaisedButton(
+          ElevatedButton(
             onPressed: _postData,
-            color: Colors.blue,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(30.0),
-            ),
             child: Text('START BUILD', style: _buttonTextStyle),
           ),
         ],

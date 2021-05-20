@@ -1,14 +1,12 @@
 import 'package:codemagic_bloc/models/models.dart';
 import 'package:codemagic_bloc/repositories/codemagic_api_client.dart';
-import 'package:flutter/material.dart';
 
 class ApplicationRepository {
   final CodemagicApiClient codemagicApiClient;
 
-  ApplicationRepository({@required this.codemagicApiClient})
-      : assert(codemagicApiClient != null);
+  ApplicationRepository({required this.codemagicApiClient});
 
-  Future<Application> fetchApplication() async {
+  Future<Application?> fetchApplication() async {
     return await codemagicApiClient.fetchApp();
   }
 }

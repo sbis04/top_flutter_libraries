@@ -11,8 +11,8 @@ Application _$ApplicationFromJson(Map<String, dynamic> json) {
   return Application(
     id: json['_id'] as String,
     appName: json['appName'] as String,
-    iconUrl: json['iconUrl'] as String,
-    lastBuildId: json['lastBuildId'] as String,
+    iconUrl: json['iconUrl'] as String?,
+    lastBuildId: json['lastBuildId'] as String?,
   );
 }
 

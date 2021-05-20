@@ -51,17 +51,16 @@ class _LocalizationViewState extends State<LocalizationView> {
               });
               switch (index) {
                 case 0:
-                  context.locale = Locale('en');
+                  context.setLocale(Locale('en'));
                   break;
                 case 1:
-                  context.locale = Locale('es');
+                  context.setLocale(Locale('es'));
                   break;
                 case 2:
-                  context.locale = Locale('hi');
-
+                  context.setLocale(Locale('hi'));
                   break;
                 default:
-                  context.locale = Locale('en');
+                  context.setLocale(Locale('en'));
               }
             },
           ),
