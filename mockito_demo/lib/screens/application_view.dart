@@ -21,15 +21,15 @@ class _ApplicationViewState extends State<ApplicationView> {
             future: fetchApps(_client),
             builder: (context, snapshot) {
               if (snapshot.hasData) {
-                Application application = snapshot.data;
+                Application application = snapshot.data as Application;
                 return Container(
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     mainAxisSize: MainAxisSize.max,
                     children: <Widget>[
-                      Text(application.appName, style: _style),
-                      Text(application.id, style: _style),
-                      Text(application.lastBuildId, style: _style)
+                      Text(application.appName!, style: _style),
+                      Text(application.id!, style: _style),
+                      Text(application.lastBuildId!, style: _style)
                     ],
                   ),
                 );

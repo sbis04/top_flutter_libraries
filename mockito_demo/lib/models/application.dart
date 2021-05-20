@@ -5,10 +5,10 @@ import 'package:mockito_demo/constants/constants.dart';
 import '../secrets.dart';
 
 class Application {
-  final String id;
-  final String appName;
-  final String iconUrl;
-  final String lastBuildId;
+  final String? id;
+  final String? appName;
+  final String? iconUrl;
+  final String? lastBuildId;
 
   Application({
     this.id,
@@ -34,10 +34,10 @@ class Application {
 
 Future<dynamic> fetchApps(http.Client client) async {
   final response = await client.get(
-    BASE_URL + ENDPOINT,
+    Uri.parse(BASE_URL + ENDPOINT),
     headers: {
       "Content-Type": "application/json",
-      "x-auth-token": API_TOKEN,
+      "x-auth-token": apiToken,
     },
   );
 
